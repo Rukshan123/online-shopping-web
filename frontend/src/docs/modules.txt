@@ -1,2 +1,3 @@
 npm install react-router-dom (routing)
 npm install axios
+npm install -D eslint (root)
