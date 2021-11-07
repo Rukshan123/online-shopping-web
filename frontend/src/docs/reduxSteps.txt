@@ -1,0 +1,4 @@
+1. create productConstants.js
+2. create productActions.js
+3. create store.js
+4. create productReducer.js 
