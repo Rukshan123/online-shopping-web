@@ -4,3 +4,4 @@ npm install -D eslint (root)
 ./node_modules/.bin/eslint --init (initialize eslint)
 
 npm install  redux react-redux
+npm install redux-thunk
