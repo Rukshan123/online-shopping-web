@@ -2,3 +2,12 @@
 2. create productActions.js
 3. create store.js
 4. create productReducer.js 
+
+
+add redux for product screen
+============================
+1. create product details in productConstants.js
+2. create detailsProduct function in productActions.js
+3. create productDetailsReducer function in productReducer.js
+4. add productDetailsReducer to store.js
+5. add store to product screen
