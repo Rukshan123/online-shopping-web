@@ -1,4 +1,5 @@
 import {
+  CARD_EMPTY,
   CART_ADD_ITEM,
   CART_REMOVE_ITEM,
   CART_SAVE_PAYMENT_METHOD,
@@ -37,6 +38,11 @@ export const cartReducer = (state = { cartItems: [] }, action) => {
       return {
         ...state,
         paymentMethod: action.payload,
+      }
+    case CARD_EMPTY:
+      return {
+        ...state,
+        cartItems: [],
       }
     default:
       return state
