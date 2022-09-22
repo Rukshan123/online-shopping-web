@@ -187,6 +187,10 @@ img.large {
   border: 0.1rem solid transparent;
   border-radius: 0.5rem;
 }
+.alert-success {
+  color: #20a020;
+  background-color: #eeffe0;
+}
 
 .alert-info {
   color: #2020a0;
